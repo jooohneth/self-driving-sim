@@ -30,7 +30,7 @@ env/
 context/
 
 # Data
-data/
+# data/
 
 # Self-driving project data
 data/imgs/       # raw camera frames — too large for git
