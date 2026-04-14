@@ -26,44 +26,16 @@ env/
 *.joblib
 *.pkl
 
-# Course context: virtual environments
-context/**/.venv/
+# Course context
+context/
 
-# Course context: training/image datasets
-context/**/data/
-context/**/smile_dataset/
-context/**/kapcha/
-context/**/covid19-dataset/
+# Data
+data/
 
-# Course context: saved model artifacts
-context/**/*.keras
-context/**/*.h5
-context/**/*.pkl
-
-# Course context: binary/large files (archives, Office docs, images)
-context/**/*.zip
-context/**/*.docx
-context/**/*.jpg
-context/**/*.jpeg
-context/**/*.png
-context/**/*.data
-
-# Course context: raw data files
-context/**/*.csv
-context/**/*.txt
-
-# Course context: lock files and local settings
-context/**/uv.lock
-context/**/.claude/
-
-# Course context: video files and binary classifier models
-context/**/*.mp4
-context/**/*.MP4
-context/**/haarcascades/
-
-# Self-driving project data (when collected)
-IMG/
-driving_log.csv
+# Self-driving project data
+data/imgs/       # raw camera frames — too large for git
+data/*.bak       # CSV backups from fix scripts
+# (data/driving_log.csv is tracked intentionally)
 
 # Editor / OS
 .idea/
