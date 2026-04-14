@@ -43,3 +43,7 @@ data/*.bak       # CSV backups from fix scripts
 *.swp
 
 videos_src/
+
+# Videos (too large for GitHub)
+*.mov
+*.mp4
